@@ -36,7 +36,7 @@ public class Testbienmanh {
     public void TT4() {
         Kiemthuhopden test = new Kiemthuhopden();
         String output = test.maxLength("M", 8);
-        Assert.assertEquals(output, "10.8 cm");
+        Assert.assertEquals(output, "11.9 cm");
     }
 
     @Test
@@ -85,7 +85,7 @@ public class Testbienmanh {
     public void TT11() {
         Kiemthuhopden test = new Kiemthuhopden();
         String output = test.maxLength("FM", 8);
-        Assert.assertEquals(output, "10.9 cm");
+        Assert.assertEquals(output, "11.7 cm");
     }
 
     @Test

@@ -50,14 +50,14 @@ public class Testbang {
     public void TT6() {
         Kiemthuhopden test = new Kiemthuhopden();
         String output = test.maxLength("M", 9);
-        Assert.assertEquals(output, "11.7 cm");
+        Assert.assertEquals(output, "11.9 cm");
     }
 
     @Test
     public void TT7() {
         Kiemthuhopden test = new Kiemthuhopden();
         String output = test.maxLength("M", 12);
-        Assert.assertEquals(output, "12.3 cm");
+        Assert.assertEquals(output, "12.6 cm");
     }
 
     @Test
