@@ -100,6 +100,7 @@ public class Testdongdk {
         Kiemthuhopden test = new Kiemthuhopden();
         String output = test.maxLength("FM", 9);
         Assert.assertEquals(output, "11.7 cm");
+    }
 
     @Test
     public void TT14() {
